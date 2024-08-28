@@ -1,12 +1,13 @@
 import bannerRecipeImg from "../../assets/banner-recipe-img.png"
 import bannerSideImg from "../../assets/banner-side-img.png"
+import bannerSmallImg from "../../assets/banner-small-img.png"
 
 const Banner = () => {
     return (
         <div className="max-w-7xl lg:mx-auto mx-2 lg:mt-10">
-            <div className="flex lg:flex-row flex-col" >
-                <div className="bg-[#E7FAFE] lg:p-12 p-6 lg:rounded-l-2xl">
-                    <div className="items-center gap-2 font-semibold rounded-2xl p-3 bg-white shadow-lg inline-flex">
+            <div className="flex lg:flex-row flex-col lg:relative" >
+                <div className="common-bg-color lg:p-12 p-6 lg:rounded-l-2xl">
+                    <div className="items-center gap-2 font-semibold rounded-2xl p-3 bg-white shadow-lg inline-flex hover:-translate-y-1 duration-300 transition-all">
                         <img src={bannerRecipeImg} alt="" />
                         <p>Hot Recipes</p>
                     </div>
@@ -60,7 +61,11 @@ const Banner = () => {
                 </div>
 
                 <div>
-                    <img className="lg:rounded-r-2xl rounded-b-2xl" src={bannerSideImg} alt="" />
+                    <img className="lg:rounded-r-2xl rounded-r-none lg:rounded-b-none rounded-b-2xl" src={bannerSideImg} alt="" />
+                </div>
+
+                <div className="lg:flex hidden lg:absolute left-[600px] top-10 ">
+                    <img className="size-[120px]" src={bannerSmallImg} alt="" />
                 </div>
             </div >
         </div>

@@ -44,7 +44,7 @@ const Navbar = () => {
 
 
     return (
-        <div className="border-2">
+        <div className="shadow sticky top-0 z-50 backdrop-blur-md">
             <nav className="max-w-7xl lg:mx-auto mx-2 flex items-center justify-between py-4">
                 <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold  transition-all duration-200 hover:scale-110">
                     <Link to={"/"} className="lobster text-2xl font-normal">Foodieland.</Link>
