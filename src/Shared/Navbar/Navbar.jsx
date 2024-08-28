@@ -50,7 +50,7 @@ const Navbar = () => {
                     <Link to={"/"} className="lobster text-2xl font-normal">Foodieland.</Link>
                 </div>
 
-                <ul className="hidden items-center justify-between gap-10 md:flex font-semibold">
+                <ul className="hidden text-black items-center justify-between gap-10 md:flex font-semibold">
                     {
                         links
                     }
