@@ -45,7 +45,7 @@ const Navbar = () => {
 
     return (
         <div className="shadow sticky top-0 z-50 backdrop-blur-md">
-            <nav className="max-w-7xl lg:mx-auto mx-2 flex items-center justify-between py-4">
+            <nav className="max-w-7xl lg:mx-auto mx-2 flex items-center justify-between lg:py-4 py-2">
                 <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold  transition-all duration-200 hover:scale-110">
                     <Link to={"/"} className="lobster text-2xl font-normal">Foodieland<span className="text-[#FF7426]">.</span></Link>
                 </div>
@@ -73,20 +73,20 @@ const Navbar = () => {
                             data-aos="fade-left"
                             data-aos-delay="50"
                             data-aos-duration="700"
-                            className=" font-medium z-10  gap-2  bg-sky-300  absolute right-0 top-16 flex w-[200px] flex-col  rounded-lg   text-base ">
-                            <li className="cursor-pointer text-white  px-6 py-2  rounded-t-lg hover:bg-sky-600 ">
+                            className=" font-medium z-10  gap-2  bg-[#a8e0ec]  absolute right-0 top-14 lg:top-16 flex w-[200px] flex-col  rounded-lg   text-base ">
+                            <li className="cursor-pointer text-black  px-6 py-2  rounded-t-lg hover:bg-sky-600 ">
                                 <Link>Home</Link>
                             </li>
-                            <li className="cursor-pointer text-white px-6 py-2  hover:bg-sky-600 ">
+                            <li className="cursor-pointer text-black px-6 py-2  hover:bg-sky-600 ">
                                 <Link>Recipes</Link>
                             </li>
-                            <li className="cursor-pointer text-white px-6 py-2  hover:bg-sky-600 ">
+                            <li className="cursor-pointer text-black px-6 py-2  hover:bg-sky-600 ">
                                 <Link>Blog</Link>
                             </li>
-                            <li className="cursor-pointer text-white px-6 py-2  hover:bg-sky-600 ">
+                            <li className="cursor-pointer text-black px-6 py-2  hover:bg-sky-600 ">
                                 <Link>Contact</Link>
                             </li>
-                            <li className="cursor-pointer text-white px-6 py-2  hover:bg-sky-600 ">
+                            <li className="cursor-pointer text-black px-6 py-2  hover:bg-sky-600 ">
                                 <Link>About us</Link>
                             </li>
                         </ul>

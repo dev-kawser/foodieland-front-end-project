@@ -25,7 +25,7 @@ const Footer = () => {
             <div className="lg:my-16 my-10 border">
                 
             </div>
-            <div className="flex lg:flex-row flex-col gap-3 items-center justify-between">
+            <div className="flex lg:flex-row flex-col gap-3 pb-5 items-center justify-between">
                 <div></div>
                 <p className="text-center">
                     © 2024 Foodieland. Developed by <span className="text-[#FF7967] lobster text-lg">Kawser</span>
