@@ -47,7 +47,7 @@ const Navbar = () => {
         <div className="shadow sticky top-0 z-50 backdrop-blur-md">
             <nav className="max-w-7xl lg:mx-auto mx-2 flex items-center justify-between py-4">
                 <div className="scale-100 cursor-pointer rounded-2xl px-3 py-2 text-xl font-semibold  transition-all duration-200 hover:scale-110">
-                    <Link to={"/"} className="lobster text-2xl font-normal">Foodieland.</Link>
+                    <Link to={"/"} className="lobster text-2xl font-normal">Foodieland<span className="text-[#FF7426]">.</span></Link>
                 </div>
 
                 <ul className="hidden text-black items-center justify-between gap-10 md:flex font-semibold">
@@ -69,7 +69,7 @@ const Navbar = () => {
                 <div ref={dropDownMenuRef} onClick={() => setDropDownState(!dropDownState)} className="relative flex transition-transform md:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="cursor-pointer" > <line x1="4" x2="20" y1="12" y2="12" /> <line x1="4" x2="20" y1="6" y2="6" /><line x1="4" x2="20" y1="18" y2="18" /> </svg>
                     {dropDownState && (
-                        <ul className=" font-medium z-10  gap-2  bg-[#393E46]  absolute right-0 top-16 flex w-[200px] flex-col  rounded-lg   text-base ">
+                        <ul className=" font-medium z-10  gap-2  bg-sky-300  absolute right-0 top-16 flex w-[200px] flex-col  rounded-lg   text-base ">
                             <li className="cursor-pointer text-white  px-6 py-2  rounded-t-lg hover:bg-sky-600 ">
                                 <Link>Home</Link>
                             </li>
