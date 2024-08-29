@@ -12,11 +12,19 @@ const DeliciousRecipe = () => {
     return (
         <div className="max-w-7xl lg:mx-auto mx-2 lg:mt-20 mt-10 text-black">
             <div className="flex lg:flex-row flex-col gap-3 items-center lg:justify-between justify-center">
-                <h1 className="lg:text-5xl text-4xl font-semibold">
+                <h1
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="900"
+                    className="lg:text-5xl text-4xl font-semibold">
                     Try this delicious recipe <br />
                     to make your day
                 </h1>
-                <p className="max-w-xl">
+                <p
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="900"
+                    className="max-w-xl">
                     Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
                 </p>
             </div>

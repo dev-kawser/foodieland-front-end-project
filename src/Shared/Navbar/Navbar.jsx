@@ -69,7 +69,11 @@ const Navbar = () => {
                 <div ref={dropDownMenuRef} onClick={() => setDropDownState(!dropDownState)} className="relative flex transition-transform md:hidden">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="cursor-pointer" > <line x1="4" x2="20" y1="12" y2="12" /> <line x1="4" x2="20" y1="6" y2="6" /><line x1="4" x2="20" y1="18" y2="18" /> </svg>
                     {dropDownState && (
-                        <ul className=" font-medium z-10  gap-2  bg-sky-300  absolute right-0 top-16 flex w-[200px] flex-col  rounded-lg   text-base ">
+                        <ul
+                            data-aos="fade-left"
+                            data-aos-delay="50"
+                            data-aos-duration="700"
+                            className=" font-medium z-10  gap-2  bg-sky-300  absolute right-0 top-16 flex w-[200px] flex-col  rounded-lg   text-base ">
                             <li className="cursor-pointer text-white  px-6 py-2  rounded-t-lg hover:bg-sky-600 ">
                                 <Link>Home</Link>
                             </li>

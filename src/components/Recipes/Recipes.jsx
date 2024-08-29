@@ -61,10 +61,18 @@ const Recipes = () => {
     return (
         <div className="max-w-7xl lg:mx-auto mx-2 lg:mt-20 mt-10 text-black">
             <div className="text-center space-y-5">
-                <h1 className="lg:text-5xl text-4xl font-semibold">
+                <h1
+                    data-aos="fade-up"
+                    data-aos-delay="50"
+                    data-aos-duration="500"
+                    className="lg:text-5xl text-4xl font-semibold">
                     Simple and tasty recipes
                 </h1>
-                <p className="lg:max-w-2xl max-w-xl mx-auto">
+                <p
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                    data-aos-duration="900"
+                    className="lg:max-w-2xl max-w-xl mx-auto">
                     Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
                 </p>
             </div>

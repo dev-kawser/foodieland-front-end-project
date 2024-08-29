@@ -9,10 +9,18 @@ const Categories = () => {
     return (
         <div className="max-w-7xl lg:mx-auto mx-2 lg:mt-20 mt-10 text-black">
             <div className="flex items-center lg:justify-between justify-center">
-                <h1 className="lg:text-5xl text-4xl font-semibold">
+                <h1
+                    data-aos="fade-right"
+                    data-aos-delay="50"
+                    data-aos-duration="700"
+                    className="lg:text-5xl text-4xl font-semibold">
                     Categories
                 </h1>
-                <button className="common-bg-color font-semibold py-3 px-4 rounded-xl lg:flex hidden hover:-translate-y-1 duration-300 transition-all">
+                <button
+                    data-aos="fade-left"
+                    data-aos-delay="50"
+                    data-aos-duration="700"
+                    className="common-bg-color font-semibold py-3 px-4 rounded-xl lg:flex hidden hover:-translate-y-1 duration-300 transition-all">
                     View All Categories
                 </button>
             </div>

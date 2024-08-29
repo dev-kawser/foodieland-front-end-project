@@ -4,7 +4,7 @@ import bannerSmallImg from "../../assets/banner-small-img.png"
 
 const Banner = () => {
     return (
-        <div className="max-w-7xl lg:mx-auto mx-2 lg:mt-10">
+        <div className="max-w-7xl lg:mx-auto lg:mt-10">
             <div className="flex lg:flex-row flex-col lg:relative" >
                 <div className="common-bg-color lg:p-12 p-6 lg:rounded-l-2xl">
                     <div className="items-center gap-2 font-semibold rounded-2xl p-3 bg-white shadow-lg inline-flex hover:-translate-y-1 duration-300 transition-all">
@@ -37,7 +37,9 @@ const Banner = () => {
                     </div>
                     <div className="lg:mt-20 mt-10 flex items-center justify-between">
                         <div className="flex items-center gap-3">
-                            <img className="size-12" src="https://i.ibb.co/K0RYQ3b/me-real.png" alt="" />
+                            <img
+                                data-aos="zoom-in"
+                                className="size-12" src="https://i.ibb.co/K0RYQ3b/me-real.png" alt="" />
                             <div>
                                 <h4 className="font-bold">Kawser Rahman</h4>
                                 <p className="font-normal">8 August 2024</p>
@@ -64,7 +66,9 @@ const Banner = () => {
                     <img className="lg:rounded-r-2xl rounded-r-none lg:rounded-b-none rounded-b-2xl" src={bannerSideImg} alt="" />
                 </div>
 
-                <div className="lg:flex hidden lg:absolute left-[600px] top-10 ">
+                <div
+                    data-aos="zoom-in"
+                    className="lg:flex hidden lg:absolute left-[600px] top-10 ">
                     <img className="size-[120px]" src={bannerSmallImg} alt="" />
                 </div>
             </div >

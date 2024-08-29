@@ -15,7 +15,11 @@ const TinnyBanner = () => {
                 <p className="mt-6 max-w-xl">
                     Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
                 </p>
-                <button className="mt-12 bg-black text-white px-5 py-2 rounded-lg">
+                <button
+                    data-aos="fade-in"
+                    data-aos-delay="300"
+                    data-aos-duration="900"
+                    className="mt-12 bg-black text-white px-5 py-2 rounded-lg">
                     Learn More
                 </button>
             </div>
