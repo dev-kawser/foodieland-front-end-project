@@ -28,7 +28,7 @@ const Footer = () => {
             <div className="flex lg:flex-row flex-col gap-3 pb-5 items-center justify-between">
                 <div></div>
                 <p className="text-center">
-                    © 2024 Foodieland. Developed by <span className="text-[#FF7967] lobster text-lg">Kawser</span>
+                    © 2024 Foodieland. Developed by <span className="text-[#FF7967] lobster text-lg"><a target="_blank" href="https://kawserrahman.netlify.app/">Kawser</a></span>
                 </p>
                 <svg xmlns="http://www.w3.org/2000/svg" width="134" height="22" viewBox="0 0 134 22" fill="none">
                     <path d="M8.11163 4.29509H9.92331V1.13974C9.61075 1.09674 8.53581 1 7.28393 1C4.67183 1 2.88248 2.643 2.88248 5.66274V8.44186H0V11.9693H2.88248V20.845H6.41654V11.9701H9.18243L9.6215 8.44269H6.41571V6.01251C6.41654 4.99297 6.69106 4.29509 8.11163 4.29509Z" fill="black" />

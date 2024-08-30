@@ -13,7 +13,7 @@ const Newsletter = () => {
                 </p>
                 <div className="mt-6">
                     <input className="py-5 px-10 rounded-xl lg:rounded-l-lg" type="text" placeholder="Your email address..." />
-                    <button className="mt-5 bg-black text-white px-5 py-5 rounded-xl lg:rounded-r-lg">
+                    <button className="mt-5 bg-black text-white px-5 py-5 rounded-xl lg:rounded-none lg:rounded-r-lg">
                         Learn More
                     </button>
                 </div>
